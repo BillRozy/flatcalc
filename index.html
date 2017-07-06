@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link href="bulma.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="scripts/components.js"></script>
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <section class="section" id="root">
+      <div class="container">
+        <h1 class="title">План/Смета</h1>
+        <h2 class="subtitle">
+          Экспериментальный проект
+        </h2>
+        <dynamic-table></dynamic-table>
+      </div>
+    </section>
+    <script>
+      var app = new Vue({
+        el: '#root'
+      });
+    </script>
+  </body>
+</html>
